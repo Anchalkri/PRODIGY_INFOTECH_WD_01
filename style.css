@@ -1,0 +1,149 @@
+.header, .home-section, .movies-section, .about-section, .contact-section, .footer {
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.scrolled {
+    background-color: #585860; /* Change this to the desired background color */
+    color: #fff; /* Change this to the desired font color */
+}
+
+.header:hover, .home-section:hover, .movies-section:hover, .about-section:hover, .contact-section:hover, .footer:hover {
+    background-color: rgb(40,230,221); /* Change this to the desired background color */
+    color: #c830e6; /* Change this to the desired font color */
+}
+
+.header {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+}
+.logo{
+    color: ;
+    font-size: large;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.home-section {
+    background: #f8f8f8;
+    padding: 50px 20px;
+}
+
+.movies-section {
+    background: #fff;
+    padding: 50px 20px;
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.movie-card {
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-description {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.about-section, .contact-section {
+    background: #f8f8f8;
+    padding: 50px 20px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    padding: 1px 0;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 150%; 
+    overflow: hidden;
+    background-color: #000; 
+}
+
+.image-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-section input, .contact-section textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-section button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+
+.home-section {
+    background-image: url('movie_background.jpg'); 
+    background-size: 100%;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar" id="navbar">
+            <a href="#" class="logo">MovieFlix</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home-section">
+        <h1>Welcome to MovieFlix</h1>
+        <p>Your gateway to amazing movies.</p>
+    </section>
+
+    <section id="movies" class="movies-section">
+        <h2>Featured Movies</h2>
+        <div class="movies-grid">
+            <div class="movie-card" data-description="An epic adventure of a lifetime.">
+                <div class="image-wrapper">
+                    <img src="movie1.jpg" alt="Movie 1">
+                </div>
+                <div class="movie-description">Movie 1</div>
+            </div>
+            <div class="movie-card" data-description="A thrilling journey through space and time.">
+                <div class="image-wrapper">
+                    <img src="movie2.jpg" alt="Movie 2">
+                </div>
+                <div class="movie-description">Movie 2</div>
+            </div>
+            <div class="movie-card" data-description="A heartwarming tale of love and friendship.">
+                <div class="image-wrapper">
+                    <img src="movie3.jpg" alt="Movie 3">
+                </div>
+                <div class="movie-description">Movie 3</div>
+            </div>
+            <div class="movie-card" data-description="An action-packed adventure full of surprises.">
+                <div class="image-wrapper">
+                    <img src="movie4.jpg" alt="Movie 4">
+                </div>
+                <div class="movie-description">Movie 4</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>We are a leading platform bringing you the best movies from around the world.</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 MovieFlix. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
